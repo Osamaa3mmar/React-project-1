@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+  --blue:#354d6a;
+  --white:#eddde0;
+  --italiano:Italianno;
+  --robo:Roboto;
+}
+#root{
+  background-color: aliceblue;
+  min-height: 100vh;
+}
+
+.navbar{
+  background-color: transparent;
+  padding-top: 20px !important;
+}
+
+.navbar .container{
+  background-color: var(--white);
+  padding: 5px 40px  ;
+  border-radius: 10px ;
+}
+
+
+@media screen and (max-width: 992px) {
+  .navbar{
+    background-color:  var(--white);
+    padding-top: 0px !important;
+  }
+  .navbar .container{
+    background-color: var(--white);
+    padding: 0px  ;
+  border-radius: 0px ;
+
+  }
+}
